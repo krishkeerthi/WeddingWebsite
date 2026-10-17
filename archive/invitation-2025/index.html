@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding Celebration</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Material Design feel (e.g., Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons (optional but good for UI) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Swiper.js CSS for carousel (if you choose this library) -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+</head>
+<body>
+
+    <header class="hero">
+        <!-- Hero image placeholder: set your image URL in style.css at --hero-image-url (e.g. url('https://your-domain.com/hero.jpg')) -->
+        <!-- Optional override example:
+        <style>
+            :root { --hero-image-url: url('https://your-domain.com/hero.jpg'); }
+        </style>
+        -->
+        <div class="hero-content">
+            <h1>Keerthi & Sandhya</h1>
+            <p class="tagline">Are Getting Married !</p>
+            <p class="tagline spaced">Reception Date: Wednesday, November 26, 2025</p>
+            <p class="tagline">Wedding Date: Thursday, November 27, 2025</p>
+            <!-- <div class="date-countdown"> -->
+                <!-- <span id="wedding-date">Wedding Date: Wednesday, November 27, 2025</span> -->
+                <!-- Optional: JavaScript countdown timer here -->
+            <!-- </div> -->
+            <div class="hero-actions">
+                <a href="#livestream" class="btn">Live Stream</a>
+                <a href="#moments" class="btn">Moments</a>
+                <a href="#events" class="btn">View Details</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">Keerthi & Sandhya</a>
+            <ul class="nav-links">
+                <li><a href="#livestream">Live Stream</a></li>
+                <li><a href="#moments">Moments</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="livestream" class="section material-card">
+            <div class="container">
+                <h2>Join Us Live!</h2>
+                <p>Can't make it in person? Be part of our celebration online.</p>
+                <div class="video-container">
+                    <iframe src="https://vdo.ninja/?view=htVLWSu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="moments" class="section material-card">
+            <div class="container">
+                <h2>Our Moments & Gallery</h2>
+                <!-- Image Carousel Placeholder -->
+                <!-- For a real carousel, you'd use a library like Swiper.js or build one with JS. -->
+                <!-- Example structure for a very basic static carousel idea, requires JS to animate -->
+                <div class="carousel-container">
+                    <div class="carousel-images">
+                        <img src="https://drive.google.com/thumbnail?id=1TkGrYncKZqgOjzbQUdiopVCzOMEIz0ED&sz=s2048" alt="Wedding Moment 1">
+                    </div>
+                    <!-- Add navigation buttons with JavaScript -->
+                    <!-- <button class="carousel-nav prev">Prev</button> -->
+                    <!-- <button class="carousel-nav next">Next</button> -->
+                </div>
+                <p>Browse through some of our favorite memories leading up to our big day!</p>
+                <!-- More photos/videos -->
+                <div class="grid-gallery">
+                    <img src="https://drive.google.com/thumbnail?id=1ACcuQkQp8_iJK0tprNg9EVEtIhXAc4ZR&sz=s2048" alt="Memory 1">                    
+                    <img src="https://drive.google.com/thumbnail?id=1xA3FqLe5uGx3WOGoTWRIsczsuHcvWiI3&sz=s2048" alt="Memory 2">
+                    <img src="https://drive.google.com/thumbnail?id=1wDqEhIW7UNXf6btJxknDknteiZYDkv8y&sz=s2048" alt="Memory 3">
+                    <img src="https://drive.google.com/thumbnail?id=1wCZDxLbdB6AIcp_Y8icKoOpBkm_RtTsn&sz=s2048" alt="Memory 4">
+                    <img src="https://drive.google.com/thumbnail?id=1LjLD3gMmX1wuM88lgPdz9Izkkazij3Dm&sz=s2048" alt="Memory 5">
+                    <img src="https://drive.google.com/thumbnail?id=16-yCkZQGZUO6xT28grQIdWSxNnEaqm-M&sz=s2048" alt="Memory 6">
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section material-card">
+            <div class="container">
+                <h2>Our Wedding Events</h2>
+                <div class="event-details">
+                    <div class="event-card">
+                        <h3>Reception</h3>
+                        <p><i class="fas fa-calendar-alt"></i> Wednesday, November 26, 2025</p>
+                        <p><i class="fas fa-clock"></i> 6:30 PM Onwards</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Cantonment Board Marriage Hall, Pallavaram, Chennai</p>
+                    </div>
+                    <div class="event-card">
+                        <h3>Wedding</h3>
+                        <p><i class="fas fa-calendar-alt"></i> Thursday, November 27, 2025</p>
+                        <p><i class="fas fa-clock"></i> 7:30 AM - 9:00 AM</p>
+                        <p><i class="fas fa-map-marker-alt"></i>Cantonment Board Marriage Hall, Pallavaram, Chennai</p>
+                    </div>
+                    <!-- Add more events if needed -->
+                </div>
+                <h3>Location Map</h3>
+                <div class="map-container">
+                    <!-- Replace with your actual Google Maps Embed API iframe -->
+                    <!-- Go to Google Maps, find your location, click 'Share', then 'Embed a map' and copy the iframe code -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0393448218488!2d80.14699407548733!3d12.969334214927112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e314d87e3bf%3A0x1681f907089d0fed!2sCantonment%20Board%20Thirumana%20Mandapam!5e0!3m2!1sen!2sin!4v1760695752538!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Keerthi & Sandhya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Swiper.js JS (if you choose this library for carousel) -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
